@@ -1,0 +1,122 @@
+/* Reset de estilos */
+body, h1, h2, h3, h4, h5, h6, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Estilos gerais */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  header h1 {
+    font-size: 24px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  section {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #f2f2f2;
+  }
+  
+  section h2 {
+    color: #141414;
+    margin-bottom: 10px;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Cores personalizadas */
+  body {
+    --cor-preto: #141414;
+    --cor-amarelo: #ffd700;
+    --cor-cinza: #eaeaea;
+  }
+  
+  header {
+    background-color: var(--cor-preto);
+  }
+  
+  section {
+    background-color: var(--cor-cinza);
+  }
+  
+  footer {
+    background-color: var(--cor-preto);
+  }
+  
+  header h1 {
+    color: var(--cor-amarelo);
+  }
+  
+  nav ul li a {
+    color: var(--cor-amarelo);
+  }
+  
+  section h2 {
+    color: var(--cor-preto);
+  }
+  /*Configuração das tabelas*/
+  table {
+    border-collapse: separate;
+    border-spacing: 10px;
+    width: 100%;
+  }
+  
+  th, td {
+    padding: 10px;
+  }
+  
+  th {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  td {
+    background-color: #f2f2f2;
+  }
+
+/*Manipulação da ficha de formulario*/
+  form {
+    display: grid;
+    gap: 10px;
+  }
+  
+  label {
+    grid-column: 1;
+  }
+  
+  input {
+    grid-column: 2;
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+  }
+  
+  
