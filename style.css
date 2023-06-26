@@ -46,7 +46,7 @@ body, h1, h2, h3, h4, h5, h6, p, ul, li {
   }
   
   footer {
-    background-color: var(--cor-preto);
+    background-color: #333;
     color: #fff;
     padding: 20px;
     text-align: center;
@@ -67,7 +67,10 @@ body, h1, h2, h3, h4, h5, h6, p, ul, li {
     background-color: var(--cor-cinza);
   }
   
-
+  footer {
+    background-color: var(--cor-preto);
+  }
+  
   header h1 {
     color: var(--cor-amarelo);
   }
@@ -79,3 +82,41 @@ body, h1, h2, h3, h4, h5, h6, p, ul, li {
   section h2 {
     color: var(--cor-preto);
   }
+  /*Configuração das tabelas*/
+  table {
+    border-collapse: separate;
+    border-spacing: 10px;
+    width: 100%;
+  }
+  
+  th, td {
+    padding: 10px;
+  }
+  
+  th {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  td {
+    background-color: #f2f2f2;
+  }
+
+/*Manipulação da ficha de formulario*/
+  form {
+    display: grid;
+    gap: 10px;
+  }
+  
+  label {
+    grid-column: 1;
+  }
+  
+  input {
+    grid-column: 2;
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+  }
+  
+  
